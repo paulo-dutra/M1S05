@@ -1,0 +1,44 @@
+:root{
+    --base-width: 70vw;
+    --button-width: calc(var(--base-width)/5)
+}
+
+body{
+    background-color: lightcyan;
+    display: flex;
+    justify-content: center;
+}
+
+main{
+    height: 50vh;
+    width: var(--base-width);
+    background-color: dimgray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 10px double ghostwhite;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    border: 1px groove teal;
+    padding: 15px;
+}
+
+input{
+    margin-bottom: 20px;
+    border-color: black;
+    border-radius: 5px;
+}
+
+label{
+    color: darkblue;
+}
+
+#botao{
+    align-self: center;
+    width: var(--button-width);
+}
